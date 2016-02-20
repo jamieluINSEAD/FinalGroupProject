@@ -5,7 +5,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
   
   # my Application title
-  headerPanel("Web Analytics Dashboard with R Shiny"),
+  headerPanel("INSEAD Big Data Class: Web Analytics Dashboard for a Spanish Retailer"),
   
   # a sidebar with radio buttons to choose specific segments of web traffic
   
@@ -15,15 +15,15 @@ shinyUI(pageWithSidebar(
     radioButtons("radio", label="Segment Web Traffic by Device:",
                  choices=list("Desktop" = "desktop",
                    "Mobile" = "mobile",
-                   "Tablet" = "tablet"),selected="mobile"),
+                   "Tablet" = "tablet"),selected="desktop"),
     
     #Shiny app Documentation
     br(),
 
-    helpText(p(("This Shiny app simulates a Web Analytics Dashboard. The objective of 
+    helpText(p(("This Shiny app simulates a Web Analytics Dashboard for a spanish retailer with both an online website and brick and mortar stores. The objective of 
              a dashboard is to display the"),strong("current status of key web metrics"), 
              ("and arrange it on a single view so the information can be monitored 
-             at a glance.")), 
+             at a glance.") ,strong("Our goal is to use the dashboard to develop key insights and offer recommendations for the company's omni-channel strategy in Spain.")), 
 
              p("By clicking on radio buttons, you can decide to segment data 
              by a particular traffic device (desktop, mobile or tablet) 
@@ -34,7 +34,7 @@ shinyUI(pageWithSidebar(
 
              p("Source of data: Google Analytics (web property is confidential)."),
 
-             p("Timeframe: November 2014")),
+             p("Timeframe: February 2016")),
     
     width= 3
     ),

@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+author: "Senanu"
+date: "February 20, 2016"
+output: html_document
+---
+``` {r, echo = FALSE}
+
+library(shiny)
+
+bubble_data=read.csv("data/Worten Data_Bubble.csv", header = T, sep = ",")
+
+shinyApp(
+  ui = fluidPage(
+    sidebarLayout(radioButtons("radio", label = "Traffic by Device:",choices = list("Desktop" = "desktop", "Mobile" = "mobile", "Tablet" = "tablet"), selected = "desktop"),
+      
+                        mainPanel(plotOutput("hist"))
+    )
+  ), 
+  server = function(input, output) {
+  },
+  options = list(height = 600, width = 500)
+)
+
+```
