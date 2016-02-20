@@ -3,9 +3,9 @@ library(googleVis)
 library(devtools)
 
 # Source my datasets .csv from Google Analytics)
-bubble_data=read.csv("data/Worten Data_Bubble.csv", header = T, sep = ",")
-country_data=read.csv("data/Worten Data_Country.csv", header = T, sep = ",")
-table_data=read.csv("data/Worten Data_Table.csv", header = T, sep = ",")
+bubble_data=read.csv("data/R_Data_Bubble.csv", header = T, sep = ",")
+country_data=read.csv("data/R_Data_Country.csv", header = T, sep = ",")
+table_data=read.csv("data/R_Data_Table.csv", header = T, sep = ",")
 
 #Reconstruct - VISITS
 visits<-head(bubble_data,-1)
