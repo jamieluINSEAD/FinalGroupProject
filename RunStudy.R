@@ -19,9 +19,14 @@ rm(list = ls( ))
 
 #this loads the R packages neeeded
 
+install.packages("shiny")
+install.packages("googlevis")
+install.packages("devtools")
+
 library(shiny)
 library(googleVis)
 library(devtools)
+
 
 # this loads the data files: DO NOT EDIT THIS LINE
 
