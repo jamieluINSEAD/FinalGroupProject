@@ -1,0 +1,19 @@
+Welcome to the Web Analytics Dashboard!
+
+To run the App:
+
+a. Make sure you have the following files downloaded
+	1. server.R
+	2. ui.R
+	3. "data" folder
+	4. "my_app" folder
+	5. "doc" folder
+	6. RunStudy.R
+
+b. Set working directory in R to the single folder where the files above are downloaded.
+
+c.Open RunStudy.R
+
+d. "source" all files in the RunStudy.R file
+
+e. An overview of the data and project is found in the "doc" folder.

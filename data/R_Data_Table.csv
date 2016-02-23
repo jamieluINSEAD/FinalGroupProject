@@ -1,59 +1,59 @@
-Region,Users,Percent,Device
-Andalusia,"101,587",8.31%,desktop
-Andalusia,"83,405",6.82%,mobile
-Andalusia,"28,946",2.37%,tablet
-Aragon,"7,555",0.62%,desktop
-Aragon,"4,068",0.33%,mobile
-Aragon,"2,443",0.20%,tablet
-Asturias,"5,325",0.44%,desktop
-Asturias,"2,772",0.23%,mobile
-Asturias,"1,480",0.12%,tablet
-Balearic Islands,"1,119",0.09%,desktop
-Balearic Islands,524,0.04%,mobile
-Balearic Islands,344,0.03%,tablet
-Basque Country,"13,238",1.08%,desktop
-Basque Country,"6,530",0.53%,mobile
-Basque Country,"3,866",0.32%,tablet
-Canary Islands,"19,621",1.60%,desktop
-Canary Islands,"12,070",0.99%,mobile
-Canary Islands,"4,580",0.37%,tablet
-Cantabria,519,0.04%,desktop
-Cantabria,275,0.02%,mobile
-Cantabria,102,0.01%,tablet
-Castile and Leon,"29,233",2.39%,desktop
-Castile and Leon,"25,125",2.05%,mobile
-Castile and Leon,"8,542",0.70%,tablet
-Castile-La Mancha,"24,646",2.02%,desktop
-Castile-La Mancha,"15,646",1.28%,mobile
-Castile-La Mancha,"6,091",0.50%,tablet
-Catalonia,"162,095",13.26%,desktop
-Catalonia,"68,371",5.59%,mobile
-Catalonia,"22,685",1.86%,tablet
-Ceuta,344,0.03%,desktop
-Ceuta,239,0.02%,mobile
-Ceuta,97,0.01%,tablet
-Community of Madrid,"151,031",12.35%,desktop
-Community of Madrid,"147,162",12.03%,mobile
-Community of Madrid,"39,582",3.24%,tablet
-Extremadura,"9,951",0.81%,desktop
-Extremadura,"6,201",0.51%,mobile
-Extremadura,"2,488",0.20%,tablet
-Galicia,"38,203",3.12%,desktop
-Galicia,"21,048",1.72%,mobile
-Galicia,"9,090",0.74%,tablet
-La Rioja,91,0.01%,desktop
-La Rioja,59,0.00%,mobile
-La Rioja,23,0.00%,tablet
-Melilla,116,0.01%,desktop
-Melilla,57,0.00%,mobile
-Melilla,19,0.00%,tablet
-Navarre,304,0.02%,desktop
-Navarre,196,0.02%,mobile
-Navarre,76,0.01%,tablet
-Region of Murcia,"1,973",0.16%,desktop
-Region of Murcia,"1,743",0.14%,mobile
-Region of Murcia,501,0.04%,tablet
-Valencian Community,"61,658",5.04%,desktop
-Valencian Community,"51,294",4.19%,mobile
-Valencian Community,"16,451",1.35%,tablet
-,"1,222,800",100.00%,
+Region,Users,Percent(%),Device
+Andalusia,101587,8.31,desktop
+Andalusia,83405,6.82,mobile
+Andalusia,28946,2.37,tablet
+Aragon,7555,0.62,desktop
+Aragon,4068,0.33,mobile
+Aragon,2443,0.2,tablet
+Asturias,5325,0.44,desktop
+Asturias,2772,0.23,mobile
+Asturias,1480,0.12,tablet
+Balearic Islands,1119,0.09,desktop
+Balearic Islands,524,0.04,mobile
+Balearic Islands,344,0.03,tablet
+Basque Country,13238,1.08,desktop
+Basque Country,6530,0.53,mobile
+Basque Country,3866,0.32,tablet
+Canary Islands,19621,1.6,desktop
+Canary Islands,12070,0.99,mobile
+Canary Islands,4580,0.37,tablet
+Cantabria,519,0.04,desktop
+Cantabria,275,0.02,mobile
+Cantabria,102,0.01,tablet
+Castile and Leon,29233,2.39,desktop
+Castile and Leon,25125,2.05,mobile
+Castile and Leon,8542,0.7,tablet
+Castile-La Mancha,24646,2.02,desktop
+Castile-La Mancha,15646,1.28,mobile
+Castile-La Mancha,6091,0.5,tablet
+Catalonia,162095,13.26,desktop
+Catalonia,68371,5.59,mobile
+Catalonia,22685,1.86,tablet
+Ceuta,344,0.03,desktop
+Ceuta,239,0.02,mobile
+Ceuta,97,0.01,tablet
+Community of Madrid,151031,12.35,desktop
+Community of Madrid,147162,12.03,mobile
+Community of Madrid,39582,3.24,tablet
+Extremadura,9951,0.81,desktop
+Extremadura,6201,0.51,mobile
+Extremadura,2488,0.2,tablet
+Galicia,38203,3.12,desktop
+Galicia,21048,1.72,mobile
+Galicia,9090,0.74,tablet
+La Rioja,91,0.01,desktop
+La Rioja,59,0,mobile
+La Rioja,23,0,tablet
+Melilla,116,0.01,desktop
+Melilla,57,0,mobile
+Melilla,19,0,tablet
+Navarre,304,0.02,desktop
+Navarre,196,0.02,mobile
+Navarre,76,0.01,tablet
+Region of Murcia,1973,0.16,desktop
+Region of Murcia,1743,0.14,mobile
+Region of Murcia,501,0.04,tablet
+Valencian Community,61658,5.04,desktop
+Valencian Community,51294,4.19,mobile
+Valencian Community,16451,1.35,tablet
+,1222800,,

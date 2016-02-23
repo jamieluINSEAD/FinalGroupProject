@@ -1,40 +1,4 @@
-library(shiny)
-library(googleVis)
-library(devtools)
-
-# Source my datasets .csv from Google Analytics)
-bubble_data=read.csv("data/Worten Data_Bubble.csv", header = T, sep = ",")
-country_data=read.csv("data/Worten Data_Country.csv", header = T, sep = ",")
-table_data=read.csv("data/Worten Data_Table.csv", header = T, sep = ",")
-
-#Reconstruct - VISITS
-visits<-head(bubble_data,-1)
-colnames(visits)<- tolower(colnames(visits))
-str(visits)
-colnames(visits)<- c("medium", "deviceCategory", "sessions", "viewspersession", "revenuepertransaction" )
-visits$sessions <- as.numeric(visits$sessions)
-visits$viewspersession <- as.numeric(visits$viewspersession)
-visits$revenuepertransaction <- as.numeric(visits$revenuepertransaction)
-
-
-
-#Reconstruct - Geo
-
-countries<-head(country_data,-1)
-colnames(countries)<- c("deviceCategory", "country","ga.users", "users")
-countries$users <- as.numeric(as.character(countries$users))
-
-#Reconstruct - TABLE
-tables<-head(table_data,-1)
-colnames(tables)<- tolower(colnames(tables))
-str(tables)
-colnames(tables)<- c("Region", "Users", "Percent")
-tables$Users <- as.numeric(tables$Users)
-tables$Percent <- as.numeric(tables$Percent)
-
-
-# Define server logic 
-server = shinyServer(function(input, output, sessions){
+shinyServer(function(input, output, sessions){
   
   output$dashboard <- renderGvis({
     
